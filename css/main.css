@@ -1,0 +1,111 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  font-family: "Oswald";
+  height: 5000px;
+  overflow: hidden; }
+
+.wrapper {
+  overflow: hidden; }
+
+.navbar-inverse .navbar-brand {
+  font-size: 2.5rem;
+  color: #fff;
+  text-transform: uppercase; }
+
+button {
+  position: absolute;
+  z-index: 50; }
+  button.prev {
+    top: 100px; }
+  button.next {
+    top: 130px; }
+
+.button {
+  display: block;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 50px;
+  cursor: pointer;
+  border: 2px solid #fff; }
+  .button:hover {
+    background: #000;
+    opacity: 1;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+  .button.prev {
+    bottom: 30px;
+    left: 30px; }
+    .button.prev span.glyphicon-minus {
+      display: block; }
+  .button.next {
+    bottom: 30px;
+    right: 30px; }
+    .button.next span.glyphicon-remove {
+      display: none; }
+  .button span {
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 10px 0 0 11px; }
+
+.prev-x {
+  bottom: 40px;
+  left: 70px;
+  position: absolute;
+  color: red;
+  display: none; }
+
+.next-x {
+  bottom: 40px;
+  right: 70px;
+  position: absolute;
+  color: red;
+  display: none; }
+
+ul.frames {
+  padding-left: 0; }
+  ul.frames li {
+    min-width: 100%;
+    height: 790px;
+    position: fixed;
+    display: block;
+    opacity: 0;
+    background-size: cover; }
+  ul.frames .tree {
+    background: url("../img/tree.jpg");
+    background-size: cover;
+    opacity: 1; }
+  ul.frames .ferns {
+    background: url("../img/ferns.jpg");
+    background-size: cover; }
+  ul.frames .ruins {
+    background: url("../img/ruins.jpg");
+    background-size: cover; }
+  ul.frames .flower {
+    background: url("../img/flower.jpg");
+    background-size: cover; }
+  ul.frames .misfits {
+    background: url("../img/trashed-room.jpg");
+    background-size: cover; }
+    ul.frames .misfits .tv {
+      top: 40%;
+      left: 40%;
+      position: absolute;
+      filter: blur(0.5px); }
+    ul.frames .misfits .ocean {
+      position: absolute;
+      top: 38%;
+      left: 42%;
+      filter: blur(0.5px); }
+  ul.frames .woman-hair {
+    background: url("../img/woman-hair.jpg");
+    background-size: cover; }
+  ul.frames .opus {
+    background: url("../img/opus.jpg");
+    background-size: cover; }
+
+/*# sourceMappingURL=main.css.map */
